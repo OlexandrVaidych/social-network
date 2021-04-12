@@ -1,12 +1,12 @@
 import s from './Post.module.css';
 
-const Post = () => {
+const Post = (props) => {
     return(
             <div className={s.item}>
                 <img src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg" alt=""/>
-                post 1
+                {props.message}
                 <div>
-                    <span>like</span>
+                    <span>{`${props.count} like`}</span>
                 </div>
             </div>
     )
