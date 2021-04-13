@@ -10,8 +10,8 @@ const MyPosts = () => {
                 <button>Add post</button>
             </div>
             <div className={s.posts}>
-                <Post message='How are you?' count='5' />
-                <Post message='What do you do?' count='7' />
+                <Post message='How are you?' likesCount='5' />
+                <Post message='What do you do?' likesCount='72' />
             </div>
         </div>
     )
