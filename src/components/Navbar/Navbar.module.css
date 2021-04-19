@@ -12,3 +12,19 @@
 .item a.active{
     color: gold;
 }
+
+.settings{
+    margin-top: 20px;
+}
+
+.item_friends{
+    margin-top: 40px;
+}
+
+.item_friends a{
+    font-size: 30px;
+}
+
+.friends{
+    margin-top: 10px;
+}

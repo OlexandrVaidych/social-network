@@ -19,6 +19,13 @@ let state = {
             {id: '2', message: 'How are you?'},
             {id: '3', message: 'Chao'},
         ],
+    },
+    navbar:{
+        friends:[
+            {id: '1', friend: 'Misha'},
+            {id: '2', friend: 'Vasya'},
+            {id: '3', friend: 'Bodya'},
+        ]
     }
 
     // dialogs: [
